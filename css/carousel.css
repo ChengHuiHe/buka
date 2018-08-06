@@ -1,0 +1,58 @@
+.container .carousel{
+    width: 100%;
+    overflow: hidden;
+    height: 204px;
+    position: relative;
+}
+.container .carousel .tu{
+    width: 400%;
+    position: absolute;
+}
+.container .carousel .tu li {
+    float: left;
+}
+.container .carousel .arrow{
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    margin-top: -30px;
+    color: #ebebeb;
+}
+.carousel .arrow .arrow-left,
+.carousel .arrow .arrow-right{
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    background-color: rgba(255,255,255,.4);
+}
+.carousel .arrow .arrow-left{
+    left: 0;
+}
+.carousel .arrow .arrow-right{
+    right: 0;
+}
+/*小点*/
+.container .carousel .dot{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -45px;
+    /*width: 80px;*/
+    height: 22px;
+}
+.container .carousel .dot li{
+    background-color: rgba(255,255,255,.8);
+    width:22px;
+    height:22px;
+    float: left;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 5px;
+}.container .carousel .dot .active{
+     background-color: rgba(255, 61, 31, 0.8);
+ }
